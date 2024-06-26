@@ -4,9 +4,9 @@ import { createBrowserRouter } from "react-router-dom";
 import LandingPage from "../pages/LandingPage";
 import FormL from "../layouts/FormL";
 import DashboardL from "../layouts/DashboardL";
-import Dashboard from "../components/manageMainC/Dashboard";
+import Dashboard from "../components/manageMainC/Dashboards";
 import ManageArticle from "../pages/ManageArticle";
-import AddEvent from "../components/eventForm/AddEvent";
+// import AddEvent from "../components/eventForm/AddEvent";
 import ManageEvent from "../pages/ManageEvent";
 import ManageProduct from "../pages/ManageProducts";
 import AddProduct from "../components/productForm/AddProduct";
@@ -66,17 +66,6 @@ const router = createBrowserRouter([
     element: <FormL />,
     children: [{ index: true, element: <EditArticle /> }],
   },
-  {
-    path: "/dashboard/manage-event/add",
-    element: <FormL />,
-    children: [{ index: true, element: <AddEvent /> }],
-  },
-  {
-    path: "/dashboard/manage-event/edit",
-    element: <FormL />,
-    children: [{ index: true, element: <EditEvent /> }],
-  },
-
   {
     path: "/login",
     element: <LoginDashboard />,
