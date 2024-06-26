@@ -8,7 +8,7 @@ import Dashboard from "../components/manageMainC/Dashboards";
 import ManageArticle from "../pages/ManageArticle";
 // import AddEvent from "../components/eventForm/AddEvent";
 import ManageEvent from "../pages/ManageEvent";
-import ManageProduct from "../pages/ManageProducts";
+import ManageProduct from "../pages/ManageProduct";
 import AddProduct from "../components/productForm/AddProduct";
 import EditProduct from "../components/manageProductC/editProducts/EditProducts";
 import ManageAdmin from "../components/manageAdminC/manageAdmin";
